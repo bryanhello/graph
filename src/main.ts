@@ -5,7 +5,7 @@ const canvasHeight = canvas.height;
 const canvasData = ctx.getImageData(0, 0, canvasWidth, canvasHeight);
 const ratioX = 100
 const ratioConst = ratioX/10
-const func5 = (x: number) =>  (x**2)/ratioX +(2*x)/ratioX + 2 * ratioConst ;
+const func5 = (x: number) =>  (x**2)/ratioX +(2*x)/ratioX + 2 * ratioConst;
 const funcs = [func5, func5];
 
 const drawAxis = () => {
