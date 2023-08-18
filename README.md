@@ -1,6 +1,8 @@
 # graph
 
-node js required 
+## Requirements
+
+- Node.js
 
 ## Installation
 
