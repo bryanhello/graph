@@ -5,7 +5,7 @@ const canvasHeight = canvas.height;
 const ratioX = 100;
 const ratioConst = ratioX / 10;
 
-const func5 = (x: number) => x;
+const func5 = (x: number) => Math.cos(x/10)*100;
 
 const funcs = [func5, func5];
 
