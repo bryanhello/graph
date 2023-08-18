@@ -2,5 +2,13 @@
 
 node js required 
 
--npm install 
--npm run dev
+## Installation
+
+```bash
+npm install
+```
+## Run
+
+```bash
+npm start
+```
