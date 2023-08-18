@@ -63,7 +63,7 @@ class ItemRectangle extends Item {
 
 const circle = new ItemCircle(canvasWidth / 2, canvasHeight / 2, 75);
 const rectangle = new ItemRectangle(canvasWidth / 2, canvasHeight / 2, 150, 150);
-const itemsList = [circle, rectangle];
+const itemsList: Item[] = [circle, rectangle];
 canvas.addEventListener('mousedown', (e: MouseEvent) => {
 
     clientX = e.clientX;
